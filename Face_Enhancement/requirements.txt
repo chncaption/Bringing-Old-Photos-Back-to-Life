@@ -1,4 +1,4 @@
-torch>=1.0.0
+torch>=2.10.0
 torchvision
 dominate>=2.3.1
 wandb
@@ -7,3 +7,4 @@ scikit-image
 tensorboardX
 scipy
 opencv-python
+wheel>=0.46.2 # not directly required, pinned by Snyk to avoid a vulnerability
